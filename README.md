@@ -43,4 +43,4 @@ Replace the key in Weather.jsx:
 
 js`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=YOUR_API_KEY&units=metric`
 
-n connect your GitHub repo to vercel.com for automatic deployments.
+
