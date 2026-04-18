@@ -1,16 +1,46 @@
-# React + Vite
+🌤️ Weather App
+A responsive weather application built with React and Vite that provides real-time weather information for any city worldwide using the OpenWeatherMap API.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Live Demo
+[weather-appln.vercel.app](https://weather-appln-52lcqgw0v-ruqayya29s-projects.vercel.app/)
 
-Currently, two official plugins are available:
+✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔍 Search weather by city name
+🌡️ Displays current temperature in Celsius
+💧 Shows humidity percentage
+💨 Shows wind speed in m/s
+🌥️ Dynamic weather icons based on conditions
+⌨️ Press Enter to search
+❌ Clear results with delete button
 
-## React Compiler
+🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React — UI library
+Vite — Build tool
+Axios — API requests
+OpenWeatherMap API — Weather data
+Vercel — Deployment
 
-## Expanding the ESLint configuration
+📦 Installation
+bash# Clone the repository
+git clone https://github.com/ruqayya29/weather-appln.git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Navigate into the project
+cd weather-appln
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+🔑 API Key
+This project uses the OpenWeatherMap API. To use your own key:
+
+Sign up at openweathermap.org
+Get your free API key
+Replace the key in Weather.jsx:
+
+js`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=YOUR_API_KEY&units=metric`
+
+n connect your GitHub repo to vercel.com for automatic deployments.
